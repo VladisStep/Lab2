@@ -1,10 +1,6 @@
 
 #include <stdio.h>
 #define SIZE_OF_ARRAY 20
-#include "index_first_negative.h"
-#include "index_last_negative.h"
-#include "multi_between_negative.h"
-#include "multi_before_and_after_negative.h"
 
 int main(){
     int a[SIZE_OF_ARRAY];
