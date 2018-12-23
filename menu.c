@@ -3,6 +3,7 @@
 #define SIZE_OF_ARRAY 20
 
 int main(){
+	int j = 0;
     int a[SIZE_OF_ARRAY];
 	int check = 0;
 	int i;
@@ -12,7 +13,7 @@ int main(){
 	int indexLast = -1;
     int amountOfElements = 0;
 	char c;
-	for (int j = 0; j < SIZE_OF_ARRAY; j++){
+	for ( j = 0; j < SIZE_OF_ARRAY; j++){
 		a[j] = 0;
 	}
 	scanf("%d ", &functioNumber);
